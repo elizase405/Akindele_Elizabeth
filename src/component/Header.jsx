@@ -125,46 +125,46 @@ const Header = () => {
         </div>
         {/* Featured Work */}
         <div className='relative'>
-            <motion.h3 className='uppercase text-[#939393] text-3xl sm:text-6xl lg:text-8xl font-bold' style={{ opacity: fwTitleOpacity, y: fwTitleY }} ref={fwTitleRef}>Featured work</motion.h3>
-            <div className='h-[300vh] bg-[#ECE5D7] flex justify-end gap-2' ref={fwRef}>
-                <div className="sticky top-0 flex h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
+            <motion.h3 className='uppercase text-[#939393] text-4xl sm:text-6xl lg:text-8xl font-bold' style={{ opacity: fwTitleOpacity, y: fwTitleY }} ref={fwTitleRef}>Featured work</motion.h3>
+            <div className='h-[150vh] sm:h-[300vh] bg-[#ECE5D7] flex justify-end gap-2' ref={fwRef}>
+                <div className="sticky top-0 flex h-[50%] sm:h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
                     <motion.div className="flex items-center gap-6 sm:gap-12" style={{ x: smoothX }}>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR1 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR1 }}>
                                 <Link href="https://passm-eight.vercel.app/" target='_blank'>
                                     <Image src={passm} width={600} height={200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto'/>
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR2 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR2 }}>
                                 <Link href="https://futureme-seven.vercel.app/" target='_blank'>
                                     <Image src={futureme} width={600} height={200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto'/>
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="/" target='_blank'>
                                     <Image src={movieapp} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://conference-ticket-generator-ruby.vercel.app/attendee-details" target='_blank'>
                                     <Image src={ticket} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://country-quiz-olive.vercel.app/" target='_blank'>
                                     <Image src={countryquiz} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://text-processing-interface.vercel.app/" target='_blank'>
                                     <Image src={translate} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://coffee-listing-website2.vercel.app/" target='_blank'>
                                     <Image src={coffee} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://frontend-stage-1-three.vercel.app/" target='_blank'>
                                     <Image src={colorgame} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
@@ -175,26 +175,26 @@ const Header = () => {
         </div>
         {/* Ongoing Projects */}
         <div className='relative'>
-            <motion.h3 className='uppercase text-[#939393] text-2xl sm:text-5xl lg:text-8xl font-bold' style={{ opacity: OPTitleOpacity, y: OPTitleY }} ref={OPTitleRef}>Ongoing Projects</motion.h3>
+            <motion.h3 className='uppercase text-[#939393] text-4xl sm:text-5xl lg:text-8xl font-bold' style={{ opacity: OPTitleOpacity, y: OPTitleY }} ref={OPTitleRef}>Ongoing Projects</motion.h3>
             <div className='h-[300vh] bg-[#ECE5D7] flex justify-end gap-2' ref={OPRef}>
                 <div className="sticky top-0 flex h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
                     <motion.div className="flex items-center gap-6 sm:gap-12" style={{ x: OPSmoothX }}>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR1 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR1 }}>
                                 <Link href="/">
                                     <Image src={chatio} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR2 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR2 }}>
                                 <Link href="/">
                                     <Image src={homii} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR3 }}>
                                 <Link href="/">
                                     <Image src={trustlens} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
                         </motion.div>
-                        <motion.div className='relative w-[15rem] h-[15rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR3 }}>
+                        <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR3 }}>
                                 <Link href="/">
                                     <Image src={quiethours} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
                                 </Link>
