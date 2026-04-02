@@ -226,9 +226,9 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        {/* NEXT SECTION */}
+        {/* Footer */}
         <div className="h-screen w-full flex flex-col items-center justify-center text-center">
-            <p className="text-[#333333] text-lg sm:text-2xl lg:text-5xl font-bold w-2/3">Lets work together to create something awesome and beautiful. Whether you have a project in mind or just want to say hi, feel free to get in touch.</p>
+            <p className="text-[#333333] text-lg sm:text-2xl lg:text-5xl font-bold md:w-2/3">Lets work together to create something awesome and beautiful. Whether you have a project in mind or just want to say hi, feel free to get in touch.</p>
             <p className='mt-12'>Lagos, Nigeria</p>
             <a href="mailto:elizase405@gmail.com" className="text-[#6B7280] uppercase text-sm">elizase405@gmail.com</a>
             <div className='flex mt-4'>
