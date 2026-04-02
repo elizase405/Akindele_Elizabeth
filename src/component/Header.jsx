@@ -130,56 +130,56 @@ const Header = () => {
                     <motion.div className="flex items-center gap-6 sm:gap-12" style={{ x: smoothX }}>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR1 }}>
                                 <Link href="https://passm-eight.vercel.app/" target='_blank'>
-                                    <Image src={passm} width={600} height={200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto'/>
+                                    <Image src={passm} width={600} height={200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4'/>
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Passm</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Your secure password manager</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR2 }}>
                                 <Link href="https://futureme-seven.vercel.app/" target='_blank'>
-                                    <Image src={futureme} width={600} height={200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto'/>
+                                    <Image src={futureme} width={600} height={200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4'/>
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>FutureMe</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Write a letter to your future self</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="/" target='_blank'>
-                                    <Image src={movieapp} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={movieapp} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4'/>
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Discover</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Find Movies You'll Enjoy Without the Hassle</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://conference-ticket-generator-ruby.vercel.app/attendee-details" target='_blank'>
-                                    <Image src={ticket} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={ticket} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Conference Ticket Generator</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Generate tickets for your events</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://country-quiz-olive.vercel.app/" target='_blank'>
-                                    <Image src={countryquiz} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={countryquiz} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Country Quiz</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Test your knowledge of world geography</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://text-processing-interface.vercel.app/" target='_blank'>
-                                    <Image src={translate} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={translate} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Text Processing Interface</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>A static text processing tool</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://coffee-listing-website2.vercel.app/" target='_blank'>
-                                    <Image src={coffee} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={coffee} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Coffee Listing Website</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>A static coffee shop directory</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR3 }}>
                                 <Link href="https://frontend-stage-1-three.vercel.app/" target='_blank'>
-                                    <Image src={colorgame} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={colorgame} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Color Game</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Test your color recognition skills</p>
@@ -196,21 +196,21 @@ const Header = () => {
                     <motion.div className="flex items-center gap-6 sm:gap-12" style={{ x: OPSmoothX }}>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR1 }}>
                                 <Link href="/">
-                                    <Image src={chatio} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={chatio} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Chatio</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>A real-time chat application</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR2 }}>
                                 <Link href="/">
-                                    <Image src={homii} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={homii} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Homii</p>
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>A real estate listing platform</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: OPR3 }}>
                                 <Link href="/">
-                                    <Image src={trustlens} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto' />
+                                    <Image src={trustlens} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4' />
                                     <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>TrustLens AI</p>
                                     <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Ask any questions about files and documents</p>
                                 </Link>
