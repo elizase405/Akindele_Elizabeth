@@ -69,7 +69,7 @@ const Header = () => {
     const OPTitleY = useTransform(OPTitleProgress, [0, 1], [0, -75])
 
     const { scrollYProgress: OPProgress } = useScroll({ target: OPRef });
-    const OPX = useTransform(OPProgress, [0, 1.3], ["-60%", "60%"]);
+    const OPX = useTransform(OPProgress, [0, 0.7], ["-60%", "60%"]);
     const OPR1 = useTransform(OPProgress, [0, 0.7], [-10, 10]);
     const OPR2 = useTransform(OPProgress, [0.3, 0.7], [-10, 10]);
     const OPR3 = useTransform(OPProgress, [0, 0.7], [-10, 10]);
@@ -78,7 +78,6 @@ const Header = () => {
         damping: 20,
     });
 
-    const textReveal = useTransform(fwProgress, [0.7, 1], ["0%", "100%"]);
   return (
     <div>
         <div className='flex flex-col justify-center items-center'>
@@ -126,8 +125,8 @@ const Header = () => {
         {/* Featured Work */}
         <div className='relative'>
             <motion.h3 className='uppercase text-[#939393] text-4xl sm:text-6xl lg:text-8xl font-bold' style={{ opacity: fwTitleOpacity, y: fwTitleY }} ref={fwTitleRef}>Featured work</motion.h3>
-            <div className='h-[150vh] sm:h-[300vh] bg-[#ECE5D7] flex justify-end gap-2' ref={fwRef}>
-                <div className="sticky top-0 flex h-[50%] sm:h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
+            <div className='h-[300vh] bg-[#ECE5D7] flex justify-end gap-2' ref={fwRef}>
+                <div className="sticky top-0 flex h-[40%] sm:h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
                     <motion.div className="flex items-center gap-6 sm:gap-12" style={{ x: smoothX }}>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR1 }}>
                                 <Link href="https://passm-eight.vercel.app/" target='_blank'>
