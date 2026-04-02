@@ -126,7 +126,7 @@ const Header = () => {
         <div className='relative'>
             <motion.h3 className='uppercase text-[#939393] text-4xl sm:text-6xl lg:text-8xl font-bold' style={{ opacity: fwTitleOpacity, y: fwTitleY }} ref={fwTitleRef}>Featured work</motion.h3>
             <div className='h-[300vh] bg-[#ECE5D7] flex justify-end gap-2' ref={fwRef}>
-                <div className="sticky top-0 flex h-[40%] sm:h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
+                <div className="sticky top-0 flex h-[30%] sm:h-screen items-center justify-center overflow-hidden" style={{ WebkitMaskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)", maskImage: "linear-gradient(to bottom, transparent, black 30%, black 70%, transparent)"}}>
                     <motion.div className="flex items-center gap-6 sm:gap-12" style={{ x: smoothX }}>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'  style={{ rotate: fwR1 }}>
                                 <Link href="https://passm-eight.vercel.app/" target='_blank'>
