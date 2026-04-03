@@ -143,7 +143,7 @@ const Header = () => {
                                 <p className='absolute bottom-4 sm:bottom-8 left-6 text-sm sm:text-lg text-[#0B0F24]'>Write a letter to your future self</p>
                         </motion.div>
                         <motion.div className='relative w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] overflow-hidden bg-blue-200'>
-                                <Link href="/" target='_blank'>
+                                <Link href="https://discover-tan.vercel.app/" target='_blank'>
                                     <Image src={movieapp} width={600} height={1200} alt="" className='absolute w-[90%] h-[60%] object-cover rounded-2xl self-center inset-0 z-0 transition-transform duration-300 hover:scale-110 mx-auto mt-4'/>
                                 </Link>
                                 <p className='absolute bottom-8 sm:bottom-12 left-6 text-xl sm:text-3xl text-[#0B0F24] text-bold'>Discover</p>
